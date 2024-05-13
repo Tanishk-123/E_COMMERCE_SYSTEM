@@ -1,0 +1,126 @@
+CSS
+/* Basic Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+main,
+footer {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+h1 span:nth-child(1) {
+  font-size: 2em;
+}
+
+h1 span:nth-child(2) {
+  font-size: 1.2em;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  display: flex;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+}
+
+.left-column {
+  padding-right: 30px;
+}
+
+.svvv-image {
+  width: 200%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.right-column {
+  padding-left: 30px;
+}
+
+
+form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.or-text {
+  text-align: center;
+  margin: 15px 0;
+  color: #ccc;
+}
+
+.or-text::after,
+.or-text::before {
+  content: "";
+  display: inline-block;
+  width: 40%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 8px;
+}
+
+
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+}
